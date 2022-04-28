@@ -1,0 +1,199 @@
+*{
+	text-decoration: none;
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'open sans',sans-serif;
+}
+.wrapper {
+	width: 1300px;
+	margin: auto;
+	position: relative;
+}
+
+.logo a {
+font-size: 50px;
+font-weight: 50;
+float: left;
+font-family: courier;
+color: red;
+
+}
+
+.menu{
+	float: right;
+	
+}
+
+nav {
+
+	width: 100%;
+	margin: auto;
+	display: flex;
+	line-height: 80px;
+	position: sticky;
+	position: -webkit-sticky;
+	top: 0;
+	background: #fffff;
+	z-index: 1;
+	border: 1px solid =#fffff;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+nav ul li {
+	float: left;
+}
+nav ul li a {
+	color: black;
+	font-weight: bold;
+	text-align: center;
+	padding: 0px 16px 0px 16px;
+	text-decoration: none;
+}
+.nav ul li a:hover {
+	text-decoration: underline;
+}
+section {
+	margin:auto;
+	display: flex;
+	margin-bottom: 50px;
+}
+.kolom {
+	float: left;
+	margin-top: 50px;
+	margin-bottom: 50px;
+
+}
+.kolom .diskripsi {
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'comic sans ms';
+	color: red ;
+	
+}
+
+h2 {	
+font-family: 'comic sans ms';
+font-weight: 800;
+font-size: 20px;
+margin-bottom: 20px;
+color:currentColor;
+width: 1200%;
+line-height: 50px;
+
+}
+
+a.tbl-biru {
+	background: blue;
+	border-radius: 20px;
+	margin-top: 20px;
+	padding: 10px 10px 10px 10px;
+	color: #ffffff;
+	cursor: pointer;
+	font-weight: bold;
+}
+a.tbl-biru:hover {
+	background: hotpink;
+	text-decoration: none;
+}
+a.tbl-pink {
+	background: hotpink;
+	border-radius: 20px;
+	margin-top: 20px;
+	padding: 10px;
+	color: #ffffff;
+	cursor: pointer;
+	font-weight: bold;
+	
+}
+a.tbl-pink:hover {
+	background: blue;
+	text-decoration: none;
+}
+
+p {
+	margin: 10px 0px 10px 0px;
+	padding: 10px 0px 10px 0px;
+}
+
+.tengah {
+	text-align: center;
+	width: 100%;
+}
+
+.Tutors-list {
+	width: 100%;
+	position: sticky;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.kartu-tutors {
+	width: 20%;
+	margin: 0 auto;
+}
+
+.kartu-tutors img {
+	width: 80%;
+	border-radius: 0%;
+}
+
+.kartu-tutors p {
+	font-family: 'comic sans-ms';
+	font-weight: 800;
+	font-size: 20px;
+	text-align: center;
+	color: yellowgreen;
+}
+
+#contact {
+	background: #dedede;
+	padding: 50px 0px 50px 0px;
+
+}
+
+.footer {
+	width: 100%;
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	margin: auto;
+}
+
+.footer-section {
+	width: 20%;
+	margin: 0 auto;
+
+}
+
+h3 {
+	font-family: 'comic sans ms';
+	font-weight: 800;
+	font-size: 30px;
+	margin-bottom: 20px;
+	color: currentColor;
+	width: 100%;
+	line-height: 50px;
+}
+
+#copyright {
+	text-align: center;
+	width: 100%;
+	padding: 50px 0px 50px 0px;
+	margin-top: 50px;
+}
+
+.form-floating .form-control{
+	height: 300px;
+	width: 300px;
+
+}
